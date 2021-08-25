@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+    color: rgb(236, 17, 35);
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: salmon;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    border-bottom: 1px solid sienna;
+    border-width: 5px;
+}
+
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: snow;
+}
+ nav ul{
+     list-style: none;
+     float: right;
+     margin: 0;
+     padding: 0;
+     display: flex;
+ }
+nav ul li a{
+    line-height: 80px;
+    color: snow;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: crimson;
+    border-radius: 8px;
+}
+
+.h11{
+    margin-top: 20px;
+    padding-top: 70px;
+}
+.reg{
+    width: 500px;
+    background-color:yellowgreen;
+    box-shadow: 0 0 20px 0 #999;
+    color: rgb(56, 55, 55);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding-top: -50%;
+    
+    
+}
+
+form{
+    margin: 35px;
+    padding-top: -10px;
+}
+.btn{
+    border-radius: 20px;
+    width: 150px;
+    color: rgb(230, 235, 231);
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(24, 70, 15);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.input{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 3px solid rgb(20, 56, 20);
+    border-bottom-width:5px ;
+    border-radius: 15px;
+    outline: none;
+}
+.text{
+    height: 50px;
+    padding-top: 10px;
+}
